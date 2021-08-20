@@ -1,0 +1,14 @@
+.copyright-section {
+   .astroid-social-icons {
+      justify-content: center;
+      li {
+         margin-top: 10px;
+         margin-bottom: 10px;
+      }
+   }
+   @include media-breakpoint-up(md) {
+      .astroid-social-icons {
+         justify-content: flex-end;
+      }
+   }
+}

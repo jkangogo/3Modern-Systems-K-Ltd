@@ -1,0 +1,1 @@
+UPDATE `#__flexbannerssize` SET `state` = '1';
