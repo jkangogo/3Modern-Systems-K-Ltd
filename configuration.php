@@ -39,7 +39,7 @@ class JConfig {
 	public $smtpuser = '';
 	public $smtppass = '';
 	public $smtphost = 'localhost';
-	public $smtpsecure = 'none';
+	public $smtpsecure = 'ssl';
 	public $smtpport = '25';
 	public $caching = '0';
 	public $cache_handler = 'file';
@@ -56,7 +56,7 @@ class JConfig {
 	public $sef_suffix = '0';
 	public $unicodeslugs = '0';
 	public $feed_limit = '10';
-	public $feed_email = 'site';
+	public $feed_email = 'author';
 	public $log_path = 'C:\\wamp64\\www\\3Modern Systems (K) Ltd\\administrator/logs';
 	public $tmp_path = 'C:\\wamp64\\www\\3Modern Systems (K) Ltd/tmp';
 	public $lifetime = '15';
@@ -80,8 +80,8 @@ class JConfig {
 	public $proxy_port = '';
 	public $proxy_user = '';
 	public $massmailoff = '0';
-	public $replyto = '';
-	public $replytoname = '';
+	public $replyto = 'kangogojoel25@gmail.com';
+	public $replytoname = 'kangogo';
 	public $MetaRights = '';
 	public $sitename_pagetitles = '0';
 	public $force_ssl = '0';
